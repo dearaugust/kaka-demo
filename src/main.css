@@ -1,0 +1,157 @@
+body{
+  font-size: 14px;
+}
+.my-wrap{
+  display: flex;
+  height:100vh;
+  flex-direction: column;
+  background-color: #F5F5F5;
+}
+.my-wrap a{
+  text-decoration: none;
+}
+header,footer{
+  flex-shrink: 0;
+  /*当空间不足时，都将等比例缩小 默认值为1 改为0 则不缩小*/
+  display: flex;
+}
+header{
+  background-color: #F44336;
+  justify-content: space-between;
+  /*定义了项目在主轴上的对齐方式*/
+  padding: 0 20px;
+  align-items: center;
+  /*定义项目在交叉轴上如何对齐*/
+  font-size: 20px;
+  color:white;
+  background: url('./img/header/u62.png') no-repeat ;
+  background-size: 100% 100%;
+}
+footer{
+  position: relative;
+  z-index: 10;
+  height:65px;
+  background-color: #212121;
+  align-items: stretch;
+  text-align: center;
+}
+footer>a{
+  flex-grow: 1;
+  padding:5px;
+  color:#616161;
+}
+footer>a:hover{
+  color:#F44336;
+}
+footer>a>img{
+  width:30px;
+  height: 30px;
+  flex-grow: 1;
+}
+.main{
+  flex-grow: 1;
+  /*项目的放大比例,等分剩余空间*/
+  overflow-y: auto;
+  display: flex;
+}
+.main>div{
+  flex-grow: 1;
+}
+.home-wrap{
+  width:100vw;
+  display: flex;
+  align-items:stretch;
+  flex-direction:column;
+}
+.home-wrap>div{
+  flex-grow: 1;
+}
+.home-wrap h4{
+  text-align: center;
+  color:red;
+}
+.example {
+  text-align: center;
+  padding: 30px 50px;
+}
+.swiper-container .swiper-slide{
+  /*text-align: center;*/
+  background: url('./img/home/u487.png') no-repeat;
+  background-size: 100% 100%;
+  padding:5px;
+}
+.swiper-slide>img{
+  width: 100%;
+}
+.ant-carousel .slick-dots li.slick-active button{
+   background: #F44336;
+}
+.banner-up{
+  position:relative;
+  text-align: center;
+}
+.banner-down{
+  width: 50vw;
+  position:absolute;
+  top:0;
+  margin: 8vh 25vw;
+  z-index: 10;
+}
+.today a{
+  color:#9E9E9E;
+}
+.today a i{
+  color:#9E9E9E;
+  font-size: 18px;
+}
+.ant-modal-body>div{
+  position: relative;
+  /*border-bottom: 1px solid #ccc;*/
+}
+.ant-modal-body p{
+  font-size: 16px;
+  line-height: 32px;
+  border-bottom: 1px solid #ccc;
+  margin-left: 40px;
+}
+.ant-modal-body img{
+  width: 20px;
+  vertical-align: middle;
+  margin: auto;
+  position: absolute;
+  top: 0; bottom: 0;
+}
+.find-wrap>div{
+  background: url('./img/find/u273.png') no-repeat;
+  background-size: 100% 100%;
+  margin:10px;
+  padding:2vw;
+}
+.mine-header{
+  border-top: 1px solid #ccc;
+  background: url('./img/mine/mine-bg.png') no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  padding:4vw;
+  /*display: flex;
+  flex-direction:column;
+  justify-content:center;*/
+}
+
+.gps-wrap{
+  position: fixed;
+  top:0;
+  bottom:65px;
+  left:0;
+  right:0;
+  background-color: #eee;
+  /*text-align: center;*/
+}
+.gps-header{
+  background: url('./img/header/u62.png') no-repeat ;
+  background-size: 100% 100%;
+  color:white;
+  padding:10px;
+}
