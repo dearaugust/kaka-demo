@@ -1,5 +1,5 @@
 import React from 'react';
-import {HashRouter, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Route} from 'react-router-dom';
 
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
@@ -15,7 +15,7 @@ import Gps from './components/Gps.js'
 class App extends React.Component {
   render(){
     return(
-      <HashRouter>
+      <Router>
         <div className='my-wrap'>
           <Header />
 
@@ -30,7 +30,7 @@ class App extends React.Component {
           <Footer />
 
         </div>
-      </HashRouter>
+      </Router>
     )
   }
 }

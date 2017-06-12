@@ -18,6 +18,9 @@ class Find extends React.Component {
   handleCancel = (e) => {
     this.setState({visible: false});
   }
+  handleClick(e){
+    e.preventDefault()
+  }
   render(){
     return(
       <div className='find-wrap'>
@@ -32,9 +35,9 @@ class Find extends React.Component {
           <img src={require('../img/home/u116.svg')} alt=''/>
           <span>宏村秀里意境精品酒店</span>
           <div style={{float:'right',fontSize:'14px'}}>
-            <a href='#'><Icon type="eye" />&nbsp;666</a>&nbsp;&nbsp;
-            <a href='#'><Icon type="heart" style={{color:'red'}}/>&nbsp;666</a>&nbsp;&nbsp;
-            <a href='#'><Icon type="message" />&nbsp;666</a>&nbsp;&nbsp;
+            <a href='#' onClick={this.handleClick.bind(this)}><Icon type="eye" />&nbsp;666</a>&nbsp;&nbsp;
+            <a href='#' onClick={this.handleClick.bind(this)}><Icon type="heart" style={{color:'red'}}/>&nbsp;666</a>&nbsp;&nbsp;
+            <a href='#' onClick={this.handleClick.bind(this)}><Icon type="message" />&nbsp;666</a>&nbsp;&nbsp;
           </div>
         </div>
         <Modal visible={this.state.visible} footer={null}
