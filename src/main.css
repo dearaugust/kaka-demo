@@ -76,7 +76,7 @@ footer>a>img{
 }
 .swiper-container .swiper-slide{
   /*text-align: center;*/
-  background: url('./img/home/u487.png') no-repeat;
+  background: url('./img/u487.png') no-repeat;
   background-size: 100% 100%;
   padding:5px;
 }
@@ -129,7 +129,7 @@ footer>a>img{
 }
 .mine-header{
   border-top: 1px solid #ccc;
-  background: url('./img/mine/mine-bg.png') no-repeat;
+  background: url('https://github.com/dearaugust/kaka-demo/blob/gh-pages/static/media/mine_bg.3660b0d2.png?raw=true') no-repeat;
   background-size: 100% 100%;
   text-align: center;
   color: #fff;

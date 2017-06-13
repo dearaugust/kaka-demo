@@ -24,11 +24,11 @@ class Home extends React.Component {
       <div className='home-wrap' style={{width:'100vw'}}>
         <Carousel style={{overflow:'hidden'}}>
           <div className='banner-up'>
-            <img src={require('../img/home/u584.jpg')} style={{width:'100%'}} alt=''/>
-            <img className='banner-down' src={require('../img/home/u590.png')} alt=''/>
+            <img src={require('../img/u584.jpg')} style={{width:'100%'}} alt=''/>
+            <img className='banner-down' src={require('../img/u590.png')} alt=''/>
           </div>
-          <div><img src={require('../img/home/u586.jpg')} style={{width:'100%'}} alt=''/></div>
-          <div><img src={require('../img/home/u588.jpg')} style={{width:'100%'}} alt=''/></div>
+          <div><img src={require('../img/u586.jpg')} style={{width:'100%'}} alt=''/></div>
+          <div><img src={require('../img/u588.jpg')} style={{width:'100%'}} alt=''/></div>
         </Carousel>
         <div>
           <h4>— 最新任务 —</h4>
@@ -36,17 +36,17 @@ class Home extends React.Component {
             <div className="swiper-wrapper">
               <div className="swiper-slide">
                 <p>想了解一下武汉市武昌区汉街的街景和街上的几个咖啡店里面的情况...</p>
-                <img src={require('../img/home/chen_xx___u105.svg')} alt='' style={{width:'8vw',float:'left',marginRight:'10px'}}/>
+                <img src={require('../img/chen_xx___u105.svg')} alt='' style={{width:'8vw',float:'left',marginRight:'10px'}}/>
                 <div>
-                  <span>chen xx</span>&nbsp;<img src={require('../img/home/u110.svg')} alt=''/><br/>
-                  <img src={require('../img/home/u116.svg')} alt=''/><span>上海浦东新区</span>
+                  <span>chen xx</span>&nbsp;<img src={require('../img/u110.svg')} alt=''/><br/>
+                  <img src={require('../img/u116.svg')} alt=''/><span>上海浦东新区</span>
                 </div>
               </div>
               <div className="swiper-slide">
-                <img src={require('../img/home/u487.png')} alt=''/>
+                <img src={require('../img/u487.png')} alt=''/>
               </div>
               <div className="swiper-slide">
-                <img src={require('../img/home/u487.png')} alt=''/>
+                <img src={require('../img/u487.png')} alt=''/>
               </div>
             </div>
           </div>
@@ -56,13 +56,13 @@ class Home extends React.Component {
           <div className="swiper-container1" style={{overflow:'hidden'}}>
             <div className="swiper-wrapper">
               <div className="swiper-slide">
-                <img style={{height:'15vh'}} src={require('../img/home/u539.jpg')} alt=''/>
+                <img style={{height:'15vh'}} src={require('../img/u539.jpg')} alt=''/>
               </div>
               <div className="swiper-slide">
-                <img style={{height:'15vh'}} src={require('../img/home/u541.jpg')} alt=''/>
+                <img style={{height:'15vh'}} src={require('../img/u541.jpg')} alt=''/>
               </div>
               <div className="swiper-slide">
-                <img style={{height:'15vh'}} src={require('../img/home/u543.jpg')} alt=''/>
+                <img style={{height:'15vh'}} src={require('../img/u543.jpg')} alt=''/>
               </div>
             </div>
           </div>

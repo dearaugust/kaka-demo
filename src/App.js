@@ -20,15 +20,15 @@ class App extends React.Component {
           <Header />
 
           <div className='main'>
-            <Route exact path='/' component={Home} />
-            <Route path='/find' component={Find} />
-            <Route path='/release' component={Release} />
-            <Route path='/news' component={News} />
-            <Route path='/mine' component={Mine}/>
+            <Route exact path='/kaka-demo/' component={Home} />
+            <Route path='/kaka-demo/find' component={Find} />
+            <Route path='/kaka-demo/release' component={Release} />
+            <Route path='/kaka-demo/news' component={News} />
+            <Route path='/kaka-demo/mine' component={Mine}/>
           </div>
           <Route path='/gps' component={Gps}/>
-          <Footer />
 
+          <Footer />
         </div>
       </Router>
     )

@@ -32,7 +32,7 @@ class Find extends React.Component {
           <img src={require('../img/find/u280.svg')} alt='' style={{width:'100px',marginRight:'10px'}}/>
           <img src={require('../img/find/u280.svg')} alt='' style={{width:'100px',marginRight:'10px'}}/><br/>
           <span>58分钟前</span>&nbsp;
-          <img src={require('../img/home/u116.svg')} alt=''/>
+          <img src={require('../img/u116.svg')} alt=''/>
           <span>宏村秀里意境精品酒店</span>
           <div style={{float:'right',fontSize:'14px'}}>
             <a href='#' onClick={this.handleClick.bind(this)}><Icon type="eye" />&nbsp;666</a>&nbsp;&nbsp;

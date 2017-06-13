@@ -8,7 +8,7 @@ class Mine extends React.Component {
       <div className='mine-wrap'>
         <div className='mine-header'>
           <Button ghost style={{position:'absolute',top:'2vh',right:'4vw'}}><Icon type="calendar" />签到</Button>
-          <img style={{width:'20vw'}} src={require('../img/home/chen_xx___u105.svg')} alt=''/><br/>
+          <img style={{width:'20vw'}} src={require('../img/chen_xx___u105.svg')} alt=''/><br/>
           <p style={{fontSize:'14px',marginBottom:'2vh'}}>13845678910</p>
           <Button ghost>我的名片</Button>
         </div>
